@@ -1,0 +1,24 @@
+{
+  "name": "vision",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "glslify-loader": "^2.0.0",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "parcel": "^2.9.3",
+    "sass": "^1.63.6",
+    "shader-park-core": "^0.1.38",
+    "three": "^0.153.0"
+  }
+}
